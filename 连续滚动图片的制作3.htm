@@ -1,0 +1,60 @@
+      <!DOCTYPE html>
+     <html>
+      <head>
+              <meta charset="UTF-8">
+              <title>滚动播放</title>
+          </head>
+          <body>
+              <div>
+                  <img class="c1" src="3840x768.png"/>
+                  <img class="c2"src="3840x768.png"/>
+              </div>
+          </body>
+     </html>   
+
+
+
+     <style type="text/css">
+             *{
+                 margin: 0px;
+                 padding: 0px;
+             }
+             body{     
+                 overflow-x: hidden;     
+                 overflow-y: hidden;     
+             }
+             div{
+                 overflow: hidden;
+                 width: 3840px;
+                 height: 768px;
+                 margin: auto;
+                 position: absolute;
+                 top: 0px;
+                 left: 0px;
+                 right: 0px;
+                 bottom: 0px;
+             }
+             img{
+                 width: 100%;
+                 height: 100%;
+                 position: absolute;
+                 animation-iteration-count: infinite;
+                 animation-timing-function: linear;
+                 animation-duration: 58s;
+             }
+             .c1{
+                 animation-name: roll1;
+             }
+             .c2{
+                 animation-name: roll2;
+             }
+             @keyframes roll1{
+                 0%{right: 0px; top: 0px;}
+                 100%{right: 100%; top: 0px;}
+             }
+             @keyframes roll2{
+                 0%{right: -100%; top: 0px;}
+                 100%{right: 0px; top: 0px;}
+             }
+             </style>
+
