@@ -1,6 +1,6 @@
 # Teria-Saga-themes
 
-[演示效果](https://panda-cat.github.io/Teria-Saga-themes/%E8%BF%9E%E7%BB%AD%E6%BB%9A%E5%8A%A8%E5%9B%BE%E7%89%87%E7%9A%84%E5%88%B6%E4%BD%9C.html)
+[演示效果](https://panda-cat.github.io/Teria-Saga-themes/scroll.html)
 
 
 #配合DreamScene2使用，桌面背景即可滚动
